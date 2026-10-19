@@ -41,9 +41,9 @@ export function Shell() {
     <div className="shell">
       <aside className={open ? "sidebar open" : "sidebar"}>
         <div className="brand-lockup">
-          <div className="mark">M</div>
+          <div className="mark">SC</div>
           <div>
-            <strong>Meridian Trust</strong>
+            <strong>SC Peace SK Bank</strong>
             <span>Operations</span>
           </div>
         </div>

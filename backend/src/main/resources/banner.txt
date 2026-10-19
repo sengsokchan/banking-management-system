@@ -1,3 +1,3 @@
-Meridian Trust
+SC Peace SK Bank
 Simulated banking operations API
 Portfolio project. No real customer or financial data.

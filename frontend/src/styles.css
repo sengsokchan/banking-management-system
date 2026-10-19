@@ -54,7 +54,9 @@ a { color: inherit; }
   place-items: center;
   font-family: var(--serif);
   font-weight: 640;
+  font-size: 0.78rem;
 }
+.sidebar .brand-lockup strong { font-size: 1.05rem; line-height: 1.15; }
 .brand-lockup { display: flex; gap: 14px; align-items: center; }
 .brand-lockup strong { display: block; font-family: var(--serif); font-size: 1.25rem; font-weight: 640; }
 .eyebrow { letter-spacing: 0.14em; text-transform: uppercase; font-size: 0.72rem; color: var(--brass); margin: 0; }

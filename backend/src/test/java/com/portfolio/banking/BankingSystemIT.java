@@ -328,7 +328,7 @@ class BankingSystemIT {
                         .header("Authorization", "Bearer " + admin)
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(json.writeValueAsString(Map.of(
-                                "bankDisplayName", "Meridian Trust",
+                                "bankDisplayName", "SC Peace SK Bank",
                                 "approvalThreshold", "10000.00"
                         ))))
                 .andExpect(status().isOk())
@@ -338,7 +338,7 @@ class BankingSystemIT {
                         .header("Authorization", "Bearer " + login("teller", "ChangeMe-Teller-1"))
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(json.writeValueAsString(Map.of(
-                                "bankDisplayName", "Meridian Trust",
+                                "bankDisplayName", "SC Peace SK Bank",
                                 "approvalThreshold", "50.00"
                         ))))
                 .andExpect(status().isForbidden());

@@ -1,4 +1,4 @@
-# Meridian Trust simulated API
+# SC Peace SK Bank simulated API
 # Run the API, then replace the token after login.
 
 @base = http://127.0.0.1:8080

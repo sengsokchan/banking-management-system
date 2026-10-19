@@ -1,4 +1,4 @@
-# Meridian Trust
+# SC Peace SK Bank
 
 Simulated banking operations console for a Java full-stack portfolio. Employees sign in, open customer and account records, and run deposits, withdrawals, and transfers. Nothing in this project is a real bank, and the bundled people, balances, and passwords are fictional.
 

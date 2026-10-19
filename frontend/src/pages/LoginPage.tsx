@@ -39,9 +39,9 @@ export function LoginPage() {
     <div className="login-screen">
       <section className="login-story">
         <div className="brand-lockup">
-          <div className="mark">M</div>
+          <div className="mark">SC</div>
           <div>
-            <strong>Meridian Trust</strong>
+            <strong>SC Peace SK Bank</strong>
             <span>Simulated bank</span>
           </div>
         </div>

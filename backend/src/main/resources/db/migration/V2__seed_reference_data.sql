@@ -59,4 +59,4 @@ INSERT INTO number_sequences (sequence_name, next_value) VALUES
 
 INSERT INTO system_settings (setting_key, setting_value, updated_at) VALUES
     ('approval.threshold', '10000.00', '2026-01-01 00:00:00'),
-    ('bank.display_name', 'Meridian Trust', '2026-01-01 00:00:00');
+    ('bank.display_name', 'SC Peace SK Bank', '2026-01-01 00:00:00');
