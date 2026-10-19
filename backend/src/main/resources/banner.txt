@@ -1,0 +1,3 @@
+Meridian Trust
+Simulated banking operations API
+Portfolio project. No real customer or financial data.

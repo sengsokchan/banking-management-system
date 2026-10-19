@@ -1,0 +1,8 @@
+node_modules/
+dist/
+**/.npmrc
+.env
+.env.*
+*.md
+.DS_Store
+Thumbs.db

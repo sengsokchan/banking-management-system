@@ -1,0 +1,51 @@
+# Meridian Trust simulated API
+# Run the API, then replace the token after login.
+
+@base = http://127.0.0.1:8080
+@token = paste-access-token
+
+### Login as teller
+POST {{base}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "teller",
+  "password": "ChangeMe-Teller-1"
+}
+
+### Current employee
+GET {{base}}/api/auth/me
+Authorization: Bearer {{token}}
+
+### Search customers
+GET {{base}}/api/customers?query=Amara
+Authorization: Bearer {{token}}
+
+### Deposit
+POST {{base}}/api/transactions/deposit
+Authorization: Bearer {{token}}
+Content-Type: application/json
+Idempotency-Key: demo-deposit-001
+
+{
+  "accountId": "paste-account-id",
+  "amount": 25.00,
+  "description": "Simulated counter deposit"
+}
+
+### Transfer
+POST {{base}}/api/transactions/transfer
+Authorization: Bearer {{token}}
+Content-Type: application/json
+Idempotency-Key: demo-transfer-001
+
+{
+  "sourceAccountId": "paste-source-id",
+  "destinationAccountId": "paste-destination-id",
+  "amount": 10.00,
+  "description": "Simulated transfer"
+}
+
+### Audit log
+GET {{base}}/api/audit-logs
+Authorization: Bearer {{token}}
